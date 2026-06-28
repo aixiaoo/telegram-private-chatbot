@@ -1,0 +1,6 @@
+name = 'telegram-private-chatbot'
+main = "worker.js"
+compatibility_date = "2026-06-28"
+
+# 保留环境变量
+keep_vars = true

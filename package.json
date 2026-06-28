@@ -1,0 +1,14 @@
+{
+  "name": "telegram-private-chatbot",
+  "version": "1.0.0",
+  "description": "Telegram private chat bot for Cloudflare Workers",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "node scripts/ensure-kv.cjs && wrangler deploy -c .wrangler/deploy/wrangler.toml"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
